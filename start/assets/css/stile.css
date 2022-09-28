@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* IMPOSTAZIONI GENERALI */
+
+html, body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+/* HEADER */
+header {
+    background-color: #00a0c6;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid 4px #426ec0;
+    line-height: 2em;    
+}
+
+h1 {
+    color: #ffffff;
+    font-size: larger;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+}
+
+span {
+    background-color: white;
+    color: #6495ed;
+    font-size: 1.8rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+/* MAIN */
+section {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+section h2 {
+    color: #6495ed;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 25px;
+}
+
+figure {
+    text-align: center;
+
+}
+
+#profilo {
+    border: solid #808080 1px;
+    padding: 8px;
+}
+#caption {
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+address {
+    margin-bottom: 20px;
+}
+b {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ce6054;
+    text-decoration: underline;
+}
+#sudime {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+blockquote {
+    background-color: #dcdcdc;
+    font-style: italic;
+    text-align: center;
+    
+}
+.quote {
+    background-color: #dcdcdc;
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+/* ELEMENTI NEL MAIN */
+strong {
+    color: #027794;
+}
+
+hr {
+    border: 1px dashed grey;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+mark {
+    background-color: #027794;
+    color: white;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+dd {
+    margin-left: 40px;
+}
+/* FOOTER */
+
+footer {
+    background-color: #353535;
+    border-top: 4px solid #00a0c6;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
+kbd {
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
+small {
+    color: #999;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
